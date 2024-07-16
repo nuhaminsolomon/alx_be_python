@@ -18,4 +18,6 @@ class SimpleCalculator:
         if b == 0:
             return None
         return a / b
+        python -m unittest test_simple_calculator.py
+
 

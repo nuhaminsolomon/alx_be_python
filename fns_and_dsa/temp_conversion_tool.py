@@ -7,14 +7,14 @@ FREEZING_POINT_DIFFERENCE = 32
 # Implement Conversion Functions
 def convert_to_celsius(fahrenheit):
     """
-    Converts a temperature from Fahrenheit to Celsius. 
+    Converts a temperature from Fahrenheit to Celsius factor . 
     """
     global FAHRENHEIT_TO_CELSIUS_FACTOR, FREEZING_POINT_DIFFERENCE
     return (fahrenheit - FREEZING_POINT_DIFFERENCE) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
     """
-    Converts a temperature from Celsius to Fahrenheit .
+    Converts a temperature from Celsius to Fahrenheit factor .
     """
     global CELSIUS_TO_FAHRENHEIT_FACTOR, FREEZING_POINT_DIFFERENCE
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + FREEZING_POINT_DIFFERENCE

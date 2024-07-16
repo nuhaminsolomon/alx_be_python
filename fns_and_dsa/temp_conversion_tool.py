@@ -12,7 +12,7 @@ def convert_to_CELSIUS_TO_(FAHRENHEIT_FACTOR ):
     global FAHRENHEIT_TO_CELSIUS_FACTOR, FREEZING_POINT_DIFFERENCE
     return (fahrenheit - FREEZING_POINT_DIFFERENCE) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
-def convert_to_fahrenheit(celsius):
+def convert_to_FAHRENHEIT_TO_(CELSIUS):
     """
     Converts a temperature from Celsius to Fahrenheit.
     """

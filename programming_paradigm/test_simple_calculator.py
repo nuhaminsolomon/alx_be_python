@@ -1,4 +1,5 @@
 import unittest
+from simple_calculator import SimpleCalculator
 class SimpleCalculator:
     """A simple calculator class that supports basic arithmetic operations."""
 

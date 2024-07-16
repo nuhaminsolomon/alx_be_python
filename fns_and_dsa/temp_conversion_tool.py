@@ -5,7 +5,7 @@ FREEZING_POINT_DIFFERENCE = 32
 
 
 # Implement Conversion Functions
-def convert_to_CELSIUS_TO_(FAHRENHEIT_FACTOR ):
+def convert_to_CELSIUS_TO_(FAHRENHEIT ):
     """
     Converts a temperature from Fahrenheit to Celsius.
     """

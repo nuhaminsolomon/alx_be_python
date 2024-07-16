@@ -5,16 +5,16 @@ FREEZING_POINT_DIFFERENCE = 32
 
 
 # Implement Conversion Functions
-def convert_to_celsius(fahrenheit):
+def convert_to_CELSIUS_TO_(FAHRENHEIT_FACTOR ):
     """
-    Converts a temperature from Fahrenheit to Celsius factor . 
+    Converts a temperature from Fahrenheit to Celsius.
     """
     global FAHRENHEIT_TO_CELSIUS_FACTOR, FREEZING_POINT_DIFFERENCE
     return (fahrenheit - FREEZING_POINT_DIFFERENCE) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
     """
-    Converts a temperature from Celsius to Fahrenheit factor .
+    Converts a temperature from Celsius to Fahrenheit.
     """
     global CELSIUS_TO_FAHRENHEIT_FACTOR, FREEZING_POINT_DIFFERENCE
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + FREEZING_POINT_DIFFERENCE
@@ -37,5 +37,5 @@ def main():
     else:
         raise ValueError("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
 
-if name == "main":
+if __name__ == "__main__":
     main()
